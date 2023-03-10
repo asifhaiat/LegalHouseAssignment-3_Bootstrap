@@ -34,7 +34,13 @@
           <div class="collapse navbar-collapse fw-bold fs-5" id="navbarScroll">
             <ul class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll gap-5" style="--bs-scroll-height: 100px">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  target="_blank"
+                  href="https://github.com/Programming-Hero-Web-Course4/b7-legal-house-asifhaiat"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Services</a>
@@ -49,9 +55,38 @@
                 <a class="nav-link" href="#">Contact Us</a>
               </li>
             </ul>
-            <button class="free-consultation-btn border border-1 text-white px-3 py-2 rounded-1" type="submit">
+            <button
+              class="free-consultation-btn border border-1 text-white px-3 py-2 rounded-1"
+              type="button"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+            >
               Free Consultation
             </button>
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Hey! I am Doing For Bonus Marks: Legal House"Responsive Landing Page Assignment: Bootstrap" <br />
+                    Happy Coding!
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </nav>
@@ -79,7 +114,7 @@
                       aria-label="Recipient's username"
                       aria-describedby="basic-addon2"
                     />
-                    <button class="free-consultation-btn border border-1 text-white px-3 py-2 rounded-1" type="submit">
+                    <button class="free-consultation-btn border border-1 text-white px-3 py-2 rounded-1" type="button">
                       Search
                     </button>
                   </div>
@@ -284,45 +319,67 @@
               <ul class="accordion">
                 <li>
                   <input type="radio" name="accordion" id="first" />
-                  <label for="first">Products</label>
+                  <label for="first">1.Difference between CSS Grid and CSS Flexbox</label>
                   <div class="content">
                     <p>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia necessitatibus quae voluptatum
-                      incidunt debitis, repudiandae saepe doloribus alias. Tempora saepe, nisi ex necessitatibus
-                      reprehenderit blanditiis ipsum. Facilis iure illo quia.
+                      Flexbox is a one-dimensional layout model that is designed to align items within a container along
+                      a single axis, either horizontally or vertically. Flexbox works well for creating flexible,
+                      responsive layouts that adjust to different screen sizes and device orientations. Flexbox is ideal
+                      for aligning and distributing items within a single row or column. <br />
+
+                      Grid is a two-dimensional layout model that enables you to create complex, multi-dimensional
+                      layouts that are made up of rows and columns. With grid, you can specify the size and position of
+                      each grid item within the container, making it a powerful tool for creating complex, responsive
+                      designs. Grid is best suited for creating complex, multi-dimensional layouts, such as those found
+                      in dashboards, data visualizations, and other types of web applications.
                     </p>
                   </div>
                 </li>
                 <li>
                   <input type="radio" name="accordion" id="second" />
-                  <label for="second">JavaScript</label>
+                  <label for="second">2.What is the purpose of the media query?</label>
                   <div class="content">
                     <p>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia necessitatibus quae voluptatum
-                      incidunt debitis, repudiandae saepe doloribus alias. Tempora saepe, nisi ex necessitatibus
-                      reprehenderit blanditiis ipsum. Facilis iure illo quia.
+                      The purpose of a media query in CSS is to apply different styles to a web page based on the
+                      characteristics of the device or screen size that is being used to view the page. Media queries
+                      allow web developers to create responsive designs that adapt to different screen sizes and device
+                      types, such as desktops, tablets, and smartphones. Media queries are used to target specific
+                      conditions, such as the screen width or height, device orientation (landscape or portrait), device
+                      resolution, and more. By specifying different styles for different conditions, web developers can
+                      ensure that their web pages look and function well on a wide range of devices and screen sizes.
                     </p>
                   </div>
                 </li>
                 <li>
                   <input type="radio" name="accordion" id="third" />
-                  <label for="third">Products</label>
+                  <label for="third">3.What is CSS box-model?</label>
                   <div class="content">
                     <p>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia necessitatibus quae voluptatum
-                      incidunt debitis, repudiandae saepe doloribus alias. Tempora saepe, nisi ex necessitatibus
-                      reprehenderit blanditiis ipsum. Facilis iure illo quia.
+                      The CSS box model is a fundamental concept in web design that describes the layout of elements on
+                      a webpage. Every element on a webpage, such as text, images, and other content, is contained
+                      within a rectangular box. The box model consists of four parts: Content: The content of the box,
+                      which can be text, an image, or any other type of content. Padding: The space between the content
+                      and the border of the box. Padding is used to add space between the content and the border, and is
+                      typically used for visual styling. Border: The border of the box, which surrounds the content and
+                      padding. Borders can be styled in various ways, such as with color, width, and style. Margin: The
+                      space between the border of the box and other elements on the page. Margins are used to create
+                      space between elements, and can be used for visual styling and layout purposes. The size of an
+                      element in the box model is determined by the total width and height of the content, padding,
+                      border, and margin. Understanding the box model is essential for creating well-designed and
+                      properly structured webpages.
                     </p>
                   </div>
                 </li>
                 <li>
                   <input type="radio" name="accordion" id="fourth" />
-                  <label for="fourth">Products</label>
+                  <label for="fourth">4.What is semantic Tag?</label>
                   <div class="content">
                     <p>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia necessitatibus quae voluptatum
-                      incidunt debitis, repudiandae saepe doloribus alias. Tempora saepe, nisi ex necessitatibus
-                      reprehenderit blanditiis ipsum. Facilis iure illo quia.
+                      A semantic tag is an HTML tag that conveys meaning beyond its basic function of structuring
+                      content. It describes the content it contains, making it easier for web developers to understand
+                      the purpose of the tag and the content it holds. Semantic tags provide additional information
+                      about the content, which can be used by search engines and screen readers to understand the
+                      meaning of the content.
                     </p>
                   </div>
                 </li>
@@ -386,9 +443,11 @@
                   <input type="text" style="height: 100px; background: #f3f3f3" placeholder="Your message" />
                 </div>
                 <div class="input-box text-center" style="margin-top: 90px">
-                  <button class="free-consultation-btn border border-1 text-white px-3 py-2 rounded-1" type="submit">
-                    Send Message
-                  </button>
+                  <input
+                    class="free-consultation-btn border border-1 text-white px-3 py-2 rounded-1"
+                    type="submit"
+                    style="background: #b68c5a"
+                  />
                 </div>
               </form>
             </div>
@@ -458,7 +517,7 @@
             aria-label="Recipient's username"
             aria-describedby="basic-addon2"
           />
-          <button class="free-consultation-btn border border-1 text-white px-3 py-2 rounded-1" type="submit">
+          <button class="border border-1 text-white px-3 py-2 rounded-1" type="button">
             <img src="images/email.png" alt="" srcset="" />
           </button>
         </div>
