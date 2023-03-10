@@ -160,17 +160,6 @@ input[type="radio"] {
   background: #5029bc;
 }
 
-/* @media (max-width: 950px) {
-  .container1 {
-    width: 90%;
-    padding: 30px 40px 40px 35px;
-  }
-  .container1 .content .right-side {
-    width: 75%;
-    margin-left: 55px;
-  }
-} */
-
 @media (max-width: 600px) {
   .carousel-caption {
     position: absolute;
@@ -187,8 +176,6 @@ input[type="radio"] {
   }
   .container1 .content .left-side {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     margin-top: 40px;
     flex-wrap: wrap;
   }
@@ -197,6 +184,19 @@ input[type="radio"] {
   }
   .container1 .content .right-side {
     width: 100%;
-    margin-left: 0;
+    margin-left: 20px;
+  }
+  .accordion {
+    transform: translateX(-18px);
+  }
+  .para{
+    font-size: 8px;
+  }
+
+  .banner-img{
+    height: 400px;
+  }
+  .banner-para{
+    font-size: 12px;
   }
 }
