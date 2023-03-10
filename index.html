@@ -14,8 +14,8 @@
       crossorigin="anonymous"
     />
   </head>
-  <body class="container-lg">
-    <header>
+  <body>
+    <header class="container-lg">
       <!-- Navbar Section -->
       <nav class="navbar navbar-expand-lg mt-5">
         <div class="container-fluid">
@@ -91,7 +91,7 @@
       </div>
     </header>
     <!-- Main Section -->
-    <main>
+    <main class="container-lg">
       <!-- The Legal Practices Area -->
       <section>
         <div class="text-center mt-5">
@@ -374,18 +374,18 @@
             <div class="right-side">
               <form>
                 <div class="input-box">
-                  <input type="text" style="height: 60px; background: #F3F3F3;" placeholder="Your name" />
+                  <input type="text" style="height: 60px; background: #f3f3f3" placeholder="Your name" />
                 </div>
                 <div class="input-box">
-                  <input type="text" style="height: 60px; background: #F3F3F3;" placeholder="Your email" />
+                  <input type="text" style="height: 60px; background: #f3f3f3" placeholder="Your email" />
                 </div>
                 <div class="input-box">
-                  <input type="text" style="height: 60px; background: #F3F3F3;" placeholder="Your subject" />
+                  <input type="text" style="height: 60px; background: #f3f3f3" placeholder="Your subject" />
                 </div>
                 <div class="input-box">
-                  <input type="text" style="height: 100px; background: #F3F3F3;" placeholder="Your message" />
+                  <input type="text" style="height: 100px; background: #f3f3f3" placeholder="Your message" />
                 </div>
-                <div class="input-box text-center" style="margin-top: 90px;">
+                <div class="input-box text-center" style="margin-top: 90px">
                   <button class="free-consultation-btn border border-1 text-white px-3 py-2 rounded-1" type="submit">
                     Send Message
                   </button>
@@ -396,6 +396,74 @@
         </div>
       </section>
     </main>
+    <!-- Footer Section -->
+    <footer class="mt-5 bg-black d-lg-flex justify-content-evenly p-5 col gap-5 text-center">
+      <div class="text-white">
+        <img src="images/logo.png" class="mb-3" alt="" />
+        <p>
+          There are many variations of <br />
+          passages of Lorem Ipsum <br />
+          available, but the majority have <br />
+          suffered alteration in some <br />
+          form, by injected humour.
+        </p>
+      </div>
+      <div>
+        <h1 class="fs-3 text-white mb-3">Useful Links</h1>
+        <ul class="navbar-nav navbar-nav-scroll">
+          <li class="nav-item">
+            <a class="nav-link" style="color: #cfcfcf" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: #cfcfcf" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: #cfcfcf" href="#">Cases</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: #cfcfcf" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: #cfcfcf" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h1 class="fs-3 text-white mb-3">Contact Now</h1>
+        <div class="mb-3" style="color: #cfcfcf">
+          555 4th 5t NW, Washington <br />
+          DC 20530, United States
+        </div>
+        <div class="mb-3" style="color: #cfcfcf">
+          +88 01750 000 000 <br />
+          +88 01750 000 000
+        </div>
+        <div style="color: #cfcfcf">
+          info@gmail.com <br />
+          info@gmail.com
+        </div>
+      </div>
+      <div>
+        <h1 class="fs-3 text-white mb-3">Subscribe Us</h1>
+        <div class="mb-3" style="color: #cfcfcf">
+          Subscribe for our latest & <br />
+          Articles. We Wont Give You <br />
+          Spam Mails
+        </div>
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Email Address"
+            aria-label="Recipient's username"
+            aria-describedby="basic-addon2"
+          />
+          <button class="free-consultation-btn border border-1 text-white px-3 py-2 rounded-1" type="submit">
+            <img src="images/email.png" alt="" srcset="" />
+          </button>
+        </div>
+      </div>
+    </footer>
     <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
